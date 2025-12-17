@@ -11,4 +11,64 @@
         </xs:complexType>
     </xs:element>
 
-    
+    <xs:element name="clientes">    
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="cliente" minOccurs="1" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="cliente">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="nombre"/>
+                <xs:element ref="apellido"/>
+                <xs:element ref="genero"/>
+                <xs:element ref="dni"/>
+                <xs:element ref="numero_cuenta"/>
+                <xs:element ref="codigo_postal"/>
+                <xs:element ref="ciudad"/>
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:string" use="required"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="empleados">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="empleado" minOccurs="1" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="empleado">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="nombre"/>
+                <xs:element ref="apellido"/>
+                <xs:element ref="puesto"/>
+                <xs:element ref="salario"/>
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:string" use="required"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="distribuidores">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="distribuidor" minOccurs="1" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="distribuidor">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="nombre"/>
+                <xs:element ref="ciudad"/>
+                <xs:element ref="telefono"/>
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:string" use="required"/>
+        </xs:complexType>
+    </xs:element>
