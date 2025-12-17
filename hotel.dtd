@@ -11,3 +11,14 @@
 <!ELEMENT distribuidores (distribuidor+)>
 <!ELEMENT distribuidor (nombre, ciudad, telefono)>
 <!ATTLIST distribuidor id CDATA #REQUIRED>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT genero (#PCDATA)>
+<!ELEMENT dni (#PCDATA)>
+<!ELEMENT numero_cuenta (#PCDATA)>
+<!ELEMENT codigo_postal (#PCDATA)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT puesto (#PCDATA)>
+<!ELEMENT salario (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
