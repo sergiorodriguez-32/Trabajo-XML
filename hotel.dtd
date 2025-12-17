@@ -1,1 +1,13 @@
+<!ELEMENT hotel (clientes, empleados, distribuidores)>
 
+<!ELEMENT clientes (cliente+)>
+<!ELEMENT cliente (nombre, apellido, genero, dni, numero_cuenta, codigo_postal, ciudad)>
+<!ATTLIST cliente id CDATA #REQUIRED>
+
+<!ELEMENT empleados (empleado+)>
+<!ELEMENT empleado (nombre, apellido, puesto, salario)>
+<!ATTLIST empleado id CDATA #REQUIRED>
+
+<!ELEMENT distribuidores (distribuidor+)>
+<!ELEMENT distribuidor (nombre, ciudad, telefono)>
+<!ATTLIST distribuidor id CDATA #REQUIRED>
