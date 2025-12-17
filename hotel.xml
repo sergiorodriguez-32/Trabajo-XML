@@ -178,8 +178,75 @@
     <empleado id="E10">
     <nombre>Hector</nombre>
     <apellido>Blanco</apellido>
-    <puesto>Direccion</puesto><salario>3000</salario></empleado>
+    <puesto>Direccion</puesto>
+    <salario>3000</salario>
+    </empleado>
 
   </empleados>
+
+  
+  <distribuidores>
+
+    <distribuidor id="D1">
+    <nombre>Distribuciones Sol</nombre>
+    <ciudad>Madrid</ciudad>
+    <telefono>600111111</telefono>
+    </distribuidor>
+
+    <distribuidor id="D2">
+    <nombre>FoodExpress</nombre>
+    <ciudad>Barcelona</ciudad>
+    <telefono>600222222</telefono>
+    </distribuidor>
+
+    <distribuidor id="D3">
+    <nombre>Bebidas Norte</nombre>
+    <ciudad>Bilbao</ciudad>
+    <telefono>600333333</telefono>
+    </distribuidor>
+
+    <distribuidor id="D4">
+    <nombre>Frutas Sur</nombre>
+    <ciudad>Sevilla</ciudad>
+    <telefono>600444444</telefono>
+    </distribuidor>
+
+    <distribuidor id="D5">
+    <nombre>Carnes Selectas</nombre>
+    <ciudad>Salamanca</ciudad>
+    <telefono>600555555</telefono>
+    </distribuidor>
+
+    <distribuidor id="D6">
+    <nombre>Pescados Mar</nombre>
+    <ciudad>Vigo</ciudad>
+    <telefono>600666666</telefono>
+    </distribuidor>
+
+    <distribuidor id="D7">
+    <nombre>Limpiezas Pro</nombre>
+    <ciudad>Valencia</ciudad>
+    <telefono>600777777</telefono>
+    </distribuidor>
+
+    <distribuidor id="D8">
+    <nombre>Textiles Hotel</nombre>
+    <ciudad>Alicante</ciudad>
+    <telefono>600888888</telefono>
+    </distribuidor>
+
+    <distribuidor id="D9">
+    <nombre>Electricidad Ruiz</nombre>
+    <ciudad>Granada</ciudad>
+    <telefono>600999999</telefono>
+    </distribuidor>
+
+    <distribuidor id="D10">
+    <nombre>Muebles Hosteleria</nombre>
+    <ciudad>Toledo</ciudad>
+    <telefono>601000000</telefono>
+    </distribuidor>
+
+  </distribuidores>
 
 </hotel>
