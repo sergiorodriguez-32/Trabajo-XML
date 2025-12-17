@@ -72,3 +72,20 @@
             <xs:attribute name="id" type="xs:string" use="required"/>
         </xs:complexType>
     </xs:element>
+
+    <xs:element name="nombre" type="xs:string"/>
+    <xs:element name="apellido" type="xs:string"/>
+    <xs:element name="ciudad" type="xs:string"/>
+    <xs:element name="puesto" type="xs:string"/>
+    <xs:element name="genero" type="xs:string"/> 
+
+    <xs:element name="dni" type="xs:string"/>
+    <xs:element name="numero_cuenta" type="xs:string"/>
+
+    <xs:element name="codigo_postal" type="xs:integer"/> 
+    
+    <xs:element name="salario" type="xs:decimal"/> 
+    
+    <xs:element name="telefono" type="xs:integer"/>
+
+</xs:schema>
