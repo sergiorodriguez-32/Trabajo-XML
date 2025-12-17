@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hotel SYSTEM "hotel.dtd">
+
+
+<hotel>
+
+  <clientes>
+
+    <cliente id="C1">
+      <nombre>Sergio</nombre>
+      <apellido>Rodriguez</apellido>
+      <genero>M</genero>
+      <dni>12345678A</dni>
+      <numero_cuenta>ES111</numero_cuenta>
+      <codigo_postal>28001</codigo_postal>
+      <ciudad>Madrid</ciudad>
+    </cliente>
+
+    <cliente id="C2">
+      <nombre>Ivan</nombre>
+      <apellido>Bermejo</apellido>
+      <genero>M</genero>
+      <dni>23456789B</dni>
+      <numero_cuenta>ES112</numero_cuenta>
+      <codigo_postal>08001</codigo_postal>
+      <ciudad>Barcelona</ciudad>
+    </cliente>
+
+    <cliente id="C3">
+      <nombre>Ana</nombre>
+      <apellido>Lopez</apellido>
+      <genero>F</genero>
+      <dni>34567890C</dni>
+      <numero_cuenta>ES113</numero_cuenta>
+      <codigo_postal>46001</codigo_postal>
+      <ciudad>Valencia</ciudad>
+    </cliente>
+
+    <cliente id="C4">
+      <nombre>Carlos</nombre>
+      <apellido>Martin</apellido>
+      <genero>M</genero>
+      <dni>45678901D</dni>
+      <numero_cuenta>ES114</numero_cuenta>
+      <codigo_postal>41001</codigo_postal>
+      <ciudad>Sevilla</ciudad>
+    </cliente>
+
+    <cliente id="C5">
+      <nombre>Laura</nombre>
+      <apellido>Gomez</apellido>
+      <genero>F</genero>
+      <dni>56789012E</dni>
+      <numero_cuenta>ES115</numero_cuenta>
+      <codigo_postal>50001</codigo_postal>
+      <ciudad>Zaragoza</ciudad>
+    </cliente>
+
+    <cliente id="C6">
+      <nombre>David</nombre>
+      <apellido>Ruiz</apellido>
+      <genero>M</genero>
+      <dni>67890123F</dni>
+      <numero_cuenta>ES116</numero_cuenta>
+      <codigo_postal>29001</codigo_postal>
+      <ciudad>Malaga</ciudad>
+    </cliente>
+
+    <cliente id="C7">
+      <nombre>Paula</nombre>
+      <apellido>Diaz</apellido>
+      <genero>F</genero>
+      <dni>78901234G</dni>
+      <numero_cuenta>ES117</numero_cuenta>
+      <codigo_postal>33001</codigo_postal>
+      <ciudad>Oviedo</ciudad>
+    </cliente>
+
+    <cliente id="C8">
+      <nombre>Jorge</nombre>
+      <apellido>Navarro</apellido>
+      <genero>M</genero>
+      <dni>89012345H</dni>
+      <numero_cuenta>ES118</numero_cuenta>
+      <codigo_postal>30001</codigo_postal>
+      <ciudad>Murcia</ciudad>
+    </cliente>
+
+    <cliente id="C9">
+      <nombre>Elena</nombre>
+      <apellido>Santos</apellido>
+      <genero>F</genero>
+      <dni>90123456I</dni>
+      <numero_cuenta>ES119</numero_cuenta>
+      <codigo_postal>15001</codigo_postal>
+      <ciudad>A Coruña</ciudad>
+    </cliente>
+    
+    <cliente id="C10">
+      <nombre>Mario</nombre>
+      <apellido>Vega</apellido>
+      <genero>M</genero>
+      <dni>01234567J</dni>
+      <numero_cuenta>ES120</numero_cuenta>
+      <codigo_postal>48001</codigo_postal>
+      <ciudad>Bilbao</ciudad>
+    </cliente>
+  </clientes>
+
+</hotel>
