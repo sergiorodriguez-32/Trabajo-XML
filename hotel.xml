@@ -96,7 +96,7 @@
       <codigo_postal>15001</codigo_postal>
       <ciudad>A Coruña</ciudad>
     </cliente>
-    
+
     <cliente id="C10">
       <nombre>Mario</nombre>
       <apellido>Vega</apellido>
@@ -106,6 +106,80 @@
       <codigo_postal>48001</codigo_postal>
       <ciudad>Bilbao</ciudad>
     </cliente>
+
   </clientes>
+
+
+    <empleados>
+
+    <empleado id="E1">
+    <nombre>Lucia</nombre>
+    <apellido>Fernandez</apellido>
+    <puesto>Recepcion</puesto>
+    <salario>1800</salario>
+    </empleado>
+
+    <empleado id="E2">
+    <nombre>Pedro</nombre>
+    <apellido>Alonso</apellido>
+    <puesto>Mantenimiento</puesto>
+    <salario>1700</salario>
+    </empleado>
+
+    <empleado id="E3">
+    <nombre>Marta</nombre>
+    <apellido>Castro</apellido>
+    <puesto>Limpieza</puesto>
+    <salario>1600</salario>
+    </empleado>
+
+    <empleado id="E4">
+    <nombre>Alberto</nombre>
+    <apellido>Molina</apellido>
+    <puesto>Cocinero</puesto>
+    <salario>2000</salario>
+    </empleado>
+
+    <empleado id="E5">
+    <nombre>Raquel</nombre>
+    <apellido>Iglesias</apellido>
+    <puesto>Administracion</puesto>
+    <salario>2100</salario>
+    </empleado>
+
+    <empleado id="E6">
+    <nombre>Nacho</nombre>
+    <apellido>Prieto</apellido>
+    <puesto>Seguridad</puesto>
+    <salario>1900</salario>
+    </empleado>
+
+    <empleado id="E7">
+    <nombre>Sofia</nombre>
+    <apellido>Ramos</apellido>
+    <puesto>Marketing</puesto>
+    <salario>2200</salario>
+    </empleado>
+
+    <empleado id="E8">
+    <nombre>Oscar</nombre>
+    <apellido>Nieto</apellido>
+    <puesto>Recepcion</puesto>
+    <salario>1800</salario>
+    </empleado>
+
+    <empleado id="E9">
+    <nombre>Patricia</nombre>
+    <apellido>Suarez</apellido>
+    <puesto>RRHH</puesto>
+    <salario>2300</salario>
+    </empleado>
+
+    <empleado id="E10">
+    <nombre>Hector</nombre>
+    <apellido>Blanco</apellido>
+    <puesto>Direccion</puesto><salario>3000</salario></empleado>
+
+  </empleados>
 
 </hotel>
