@@ -1,4 +1,4 @@
-README DE IVAN Y SERGIO
+README DE IVAN Y SERGIO     (enlace a github : https://github.com/sergiorodriguez-32/Trabajo-XML)
 
 1. CONTENIDO ELEGIDO:
 
