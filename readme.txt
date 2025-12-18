@@ -42,3 +42,32 @@ README DE IVAN Y SERGIO
    Tambien hemos tenido dificultades al darle un tipo de dato a lo que va a contener cada campo, ya que por ejemplo la etiqueta
    salario puede contener decimales.
 
+5. Estructura
+   
+   hotel
+│
+├── clientes
+│   ├── cliente
+│   │   ├── nombre
+│   │   ├── apellido
+│   │   ├── genero
+│   │   ├── dni
+│   │   ├── numero_cuenta
+│   │   ├── codigo_postal
+│   │   └── ciudad
+│   └── cliente 
+│
+├── empleados
+│   ├── empleado 
+│   │   ├── nombre
+│   │   ├── apellido
+│   │   ├── puesto
+│   │   └── salario
+│   └── empleado
+│
+└── distribuidores
+    ├── distribuidor 
+    │   ├── nombre
+    │   ├── ciudad
+    │   └── telefono
+    └── distribuidor
